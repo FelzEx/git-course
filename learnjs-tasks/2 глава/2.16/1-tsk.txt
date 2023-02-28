@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let ask = (question, yes, no) => {
+  return (confirm(question) ?
+  yes() :
+  no()) 
+};
+
+alert(ask("Ты согласен?", ()=> "Да", ()=> "Нет"));
+
+</script>

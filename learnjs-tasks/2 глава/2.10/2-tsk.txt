@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let JS_name = prompt("Какое «официальное» название JavaScript?", "???");
+if (JS_name == "ECMAScript"){
+  alert("Верно");
+}
+else{
+  alert("Nope");
+}
+
+</script>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let user_login = prompt("Логин", "");
+let admin_password_correct = "Я главный";
+
+if (user_login == null) {
+  alert("Отмена");
+}
+else if (user_login == "Админ") {
+  let admin_password = prompt("Пароль", "");
+    if (admin_password == admin_password_correct) {
+      alert("Здравствуйте");
+      }
+      else if (admin_password == null) {
+        alert("Отмена");
+      }
+      else if (admin_password != admin_password_correct) {
+        alert("Я вас не знаю");
+      }
+}
+</script>
+

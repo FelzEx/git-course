@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let x = +prompt("Введите число", "");
+let n = +prompt("Введите степень", "");
+
+function powX(x, n) {
+  if (x >= 1 && n >= 1) {
+    return (x**n);
+  }
+  else {
+    return ("Ошибка");
+  }
+}
+
+alert(powX(x, n));
+</script>
