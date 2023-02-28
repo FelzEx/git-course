@@ -1,6 +1,0 @@
-let my_object = {};
-
-function a() {return my_object;}
-function b() {return my_object;}
-
-alert(new a() == new b());

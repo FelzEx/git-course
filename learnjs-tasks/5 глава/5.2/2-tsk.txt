@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-<script>
-"use strict";
-
-let num = 6.35;
-alert(Math.round(num * 10) / 10);
-
-</script>
