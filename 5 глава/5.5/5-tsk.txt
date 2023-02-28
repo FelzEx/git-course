@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let arr = [2, 1, 4, 3];
+
+arr.sort();
+
+alert(arr);
+
+</script>

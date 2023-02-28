@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+function getMaxSubSum(arr) {
+  let sum = 0;
+  let acc = 0;
+
+  for (let nums of arr) { 
+    acc += nums;
+    sum = acc;
+    if (acc < 0) acc = 0;
+  }
+  return sum;
+}
+
+alert(getMaxSubSum([1, 2, 3, 4, 7, -2]));
+
+</script>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let arr = ["Джаз", "Блюз"];
+arr.push("Рок-н-ролл");
+
+arr[(arr.length - 1) / 2] = "Классика";
+
+arr.shift(0);
+
+arr.unshift("Рэп", "Рэгги");
+
+alert(arr);
+</script>
